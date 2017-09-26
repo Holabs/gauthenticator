@@ -1,4 +1,4 @@
-Holabs/GAuthenticator
+Holabs/Authenticator
 ===============
 
 Implementation of [RobThree/TwoFactorAuth](https://github.com/RobThree/TwoFactorAuth) for Nette Framework.
@@ -13,7 +13,7 @@ Installation
  - [robthree/twofactorauth](https://github.com/robthree/twofactorauth)
  
 ```sh
-composer require holabs/gauthenticator
+composer require holabs/authenticator
 ```
 
 Configuration
