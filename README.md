@@ -1,6 +1,10 @@
 Holabs/Authenticator
 ===============
 
+Abadoned
+--------
+**Use `holabs/totp` instead.**
+
 Implementation of [RobThree/TwoFactorAuth](https://github.com/RobThree/TwoFactorAuth) for Nette Framework.
 
 Installation
