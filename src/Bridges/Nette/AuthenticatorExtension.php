@@ -3,7 +3,7 @@
 namespace Holabs\GAuthenticator\Bridges\Nette;
 
 use Holabs\GAuthenticator;
-use Nette\DI\Extensions\ExtensionsExtension;
+use Nette\DI\CompilerExtension;
 use RobThree\Auth\TwoFactorAuth;
 
 /**
@@ -11,7 +11,7 @@ use RobThree\Auth\TwoFactorAuth;
  * @package      holabs/gauthenticator
  * @copyright    Copyright © 2017, Tomáš Holan [www.tomasholan.eu]
  */
-class AuthenticatorExtension extends ExtensionsExtension {
+class AuthenticatorExtension extends CompilerExtension {
 
 	public $defaults = [
 		'issuer'      => NULL,
